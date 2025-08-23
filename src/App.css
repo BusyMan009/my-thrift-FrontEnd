@@ -15,8 +15,15 @@
 .navbar-color {
   background-color: #726e5e;
 }
+.navbar-color-c {
+  color: #110f08;
+}
 .navbar-color1 {
   background-color: #d4d2c9;
+}
+
+.navbar-color2 {
+  background-color: #fcfbf9;
 }
 /* #root {
   max-width: 1280px;

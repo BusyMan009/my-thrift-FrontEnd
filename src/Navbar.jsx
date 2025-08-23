@@ -4,12 +4,11 @@ export default function Navbar(){
           <div className=" navbar-color1  ">
         <div className='navbar  w-4/5 mx-auto'>
         
-        {/* شعار الموقع على اليمين */}
+        {/* R Side*/}
         <div className="navbar-start w-1/5">
           <a className="btn btn-ghost text-xl">MY Thrift</a>
         </div>
 
-        {/* قائمة التنقل في الوسط */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li><a>Home</a></li>
@@ -18,7 +17,6 @@ export default function Navbar(){
           </ul>
         </div>
 
-        {/* صورة المستخدم على اليسار */}
         <div className="navbar-end w-4/6">
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
