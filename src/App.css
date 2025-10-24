@@ -2,29 +2,57 @@
 @plugin "daisyui";
 
 .scrollbar-custom::-webkit-scrollbar-thumb {
-  background: #6b8eff; /* لونك المفضل هنا */
+  background: #331919; /* لونك المفضل هنا */
 }
 
+
 * {
-  color:black
+  /* color:rgb(131, 77, 26); */
+  /* font-family:'Times New Roman', Times, serif; */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
 }
+
+html, body {
+  background-color: white !important;
+} 
+
 
 .bg-search {
   background-color: #f3f3f4;
 }
 .navbar-color {
-  background-color: #726e5e;
+  background-color: #7e7a6b;
 }
 .navbar-color-c {
   color: #110f08;
 }
 .navbar-color1 {
-  background-color: #d4d2c9;
+  background-color: rgb(131, 77, 26)
+}
+.navbar-color2 {
+  background-color: #F8F5E9;
+} 
+
+/* .navbar-color1 {
+  background-color: #a08871;
+} */
+
+
+.main-color1:hover {
+  background-color: #70654f;
 }
 
-.navbar-color2 {
+/* .navbar-color1 {
+  background-color: #d4d2c9;
+} */
+
+/* .navbar-color2 {
   background-color: #fcfbf9;
-}
+} */
+
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
