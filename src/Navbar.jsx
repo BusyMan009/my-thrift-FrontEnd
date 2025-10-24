@@ -9,7 +9,7 @@ import {
   X
 } from 'lucide-react';
 import CenteredTabs from './CenteredTabs';
-import "./app.css";
+import "./App.css";
 
 export default function Navbar() {
   const navigate = useNavigate();
