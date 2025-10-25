@@ -3,7 +3,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import "./app.css"
+import "./App.css"
 
 export default function SelectLabels() {
   const [city, setCity] = React.useState('');
